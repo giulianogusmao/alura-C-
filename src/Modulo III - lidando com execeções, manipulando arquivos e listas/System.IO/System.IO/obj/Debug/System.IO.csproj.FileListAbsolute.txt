@@ -1,0 +1,9 @@
+C:\Users\giuliano.gusmao\Downloads\Cursos\Alura\C#\src\Modulo III - lidando com execeções, manipulando arquivos e listas\System.IO\System.IO\bin\Debug\System.IO.exe.config
+C:\Users\giuliano.gusmao\Downloads\Cursos\Alura\C#\src\Modulo III - lidando com execeções, manipulando arquivos e listas\System.IO\System.IO\bin\Debug\System.IO.exe
+C:\Users\giuliano.gusmao\Downloads\Cursos\Alura\C#\src\Modulo III - lidando com execeções, manipulando arquivos e listas\System.IO\System.IO\bin\Debug\System.IO.pdb
+C:\Users\giuliano.gusmao\Downloads\Cursos\Alura\C#\src\Modulo III - lidando com execeções, manipulando arquivos e listas\System.IO\System.IO\obj\Debug\System.IO.csprojResolveAssemblyReference.cache
+C:\Users\giuliano.gusmao\Downloads\Cursos\Alura\C#\src\Modulo III - lidando com execeções, manipulando arquivos e listas\System.IO\System.IO\obj\Debug\System.IO.Form1.resources
+C:\Users\giuliano.gusmao\Downloads\Cursos\Alura\C#\src\Modulo III - lidando com execeções, manipulando arquivos e listas\System.IO\System.IO\obj\Debug\System.IO.Properties.Resources.resources
+C:\Users\giuliano.gusmao\Downloads\Cursos\Alura\C#\src\Modulo III - lidando com execeções, manipulando arquivos e listas\System.IO\System.IO\obj\Debug\System.IO.csproj.GenerateResource.Cache
+C:\Users\giuliano.gusmao\Downloads\Cursos\Alura\C#\src\Modulo III - lidando com execeções, manipulando arquivos e listas\System.IO\System.IO\obj\Debug\System.IO.exe
+C:\Users\giuliano.gusmao\Downloads\Cursos\Alura\C#\src\Modulo III - lidando com execeções, manipulando arquivos e listas\System.IO\System.IO\obj\Debug\System.IO.pdb
