@@ -28,17 +28,31 @@ namespace CaixaEletronico
             Conta contaDoVictor = new ContaCorrente();
             contaDoVictor.Titular = new Cliente();
             contaDoVictor.Titular.Nome = "Victor";
+            contaDoVictor.Deposita(2200);
             this.AdicionaConta(contaDoVictor);
 
             Conta contaDoGuilherme = new ContaPoupanca();
             contaDoGuilherme.Titular = new Cliente();
             contaDoGuilherme.Titular.Nome = "Guilherme";
+            contaDoGuilherme.Deposita(2900);
             this.AdicionaConta(contaDoGuilherme);
 
             Conta contaDoMauricio = new ContaInvestimento();
             contaDoMauricio.Titular = new Cliente();
             contaDoMauricio.Titular.Nome = "Mauricio";
+            contaDoMauricio.Deposita(1800.85);
             this.AdicionaConta(contaDoMauricio);
+
+            this.CalculaTotalRicos();
+        }
+
+        private void CalculaTotalRicos() {
+            // exemplo LINQ e Lambda
+            var filtradas = from c in contas
+                            where c.Saldo > 2000
+                            select c;
+
+            saldoLinq.Text = "Total: " + filtradas.Sum(c => c.Saldo);
         }
 
         private void button1_Click(object sender, EventArgs e)

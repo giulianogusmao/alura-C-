@@ -48,6 +48,8 @@
             this.novaConta = new System.Windows.Forms.Button();
             this.label6 = new System.Windows.Forms.Label();
             this.deletarConta = new System.Windows.Forms.Button();
+            this.label7 = new System.Windows.Forms.Label();
+            this.saldoLinq = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // textoTitular
@@ -246,11 +248,29 @@
             this.deletarConta.UseVisualStyleBackColor = true;
             this.deletarConta.Click += new System.EventHandler(this.button2_Click);
             // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Location = new System.Drawing.Point(455, 254);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(215, 17);
+            this.label7.TabIndex = 19;
+            this.label7.Text = "Saldo contas acima de 2.000,00:";
+            // 
+            // saldoLinq
+            // 
+            this.saldoLinq.Location = new System.Drawing.Point(458, 284);
+            this.saldoLinq.Name = "saldoLinq";
+            this.saldoLinq.Size = new System.Drawing.Size(268, 22);
+            this.saldoLinq.TabIndex = 20;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(795, 450);
+            this.Controls.Add(this.saldoLinq);
+            this.Controls.Add(this.label7);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.novaConta);
             this.Controls.Add(this.label5);
@@ -302,6 +322,8 @@
         private System.Windows.Forms.Button novaConta;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Button deletarConta;
+        private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.TextBox saldoLinq;
     }
 }
 
