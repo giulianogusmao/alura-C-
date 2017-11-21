@@ -1,0 +1,3 @@
+C:\Users\giuliano.gusmao\Downloads\Cursos\Alura\C#\src\Modulo II\OiMundo\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe.config
+C:\Users\giuliano.gusmao\Downloads\Cursos\Alura\C#\src\Modulo II\OiMundo\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.exe
+C:\Users\giuliano.gusmao\Downloads\Cursos\Alura\C#\src\Modulo II\OiMundo\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.pdb
