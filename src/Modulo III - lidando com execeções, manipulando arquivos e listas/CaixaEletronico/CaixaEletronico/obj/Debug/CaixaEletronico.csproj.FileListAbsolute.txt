@@ -19,3 +19,4 @@ C:\Users\giuliano.gusmao\Downloads\Cursos\Alura\C#\src\Modulo III - lidando com 
 C:\Users\giuliano.gusmao\Downloads\Cursos\Alura\C#\src\Modulo III - lidando com execeções, manipulando arquivos e listas\CaixaEletronico\CaixaEletronico\obj\Debug\CaixaEletronico.Form1.resources
 C:\Users\giuliano.gusmao\Downloads\Cursos\Alura\C#\src\Modulo III - lidando com execeções, manipulando arquivos e listas\CaixaEletronico\CaixaEletronico\obj\Debug\CaixaEletronico.Properties.Resources.resources
 C:\Users\giuliano.gusmao\Downloads\Cursos\Alura\C#\src\Modulo III - lidando com execeções, manipulando arquivos e listas\CaixaEletronico\CaixaEletronico\obj\Debug\CaixaEletronico.csproj.GenerateResource.Cache
+C:\Users\giuliano.gusmao\Downloads\Cursos\Alura\C#\src\Modulo III - lidando com execeções, manipulando arquivos e listas\CaixaEletronico\CaixaEletronico\obj\Debug\CaixaEletronico.CadastroDeContas.resources

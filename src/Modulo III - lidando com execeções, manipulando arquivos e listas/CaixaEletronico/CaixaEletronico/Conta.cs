@@ -8,7 +8,7 @@ using CaixaEletronico.Exceptions;
 
 namespace CaixaEletronico.Contas
 {
-    abstract class Conta
+    public abstract class Conta
     {
         public int Numero { get; set; }
         public Cliente Titular { get; set; }

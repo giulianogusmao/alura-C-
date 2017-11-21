@@ -15,7 +15,7 @@ namespace CaixaEletronico
 {
     public partial class Form1 : Form
     {
-        Conta[] contas;
+        private List<Conta> contas = new List<Conta>();
 
         public Form1()
         {
@@ -24,31 +24,23 @@ namespace CaixaEletronico
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            contas = new Conta[3];
-
             Conta contaDoVictor = new ContaCorrente();
             contaDoVictor.Titular = new Cliente();
             contaDoVictor.Titular.Nome = "Victor";
             contaDoVictor.Numero = 1;
-            contas[0] = contaDoVictor;
+            this.AdicionaConta(contaDoVictor);
 
             Conta contaDoGuilherme = new ContaPoupanca();
             contaDoGuilherme.Titular = new Cliente();
             contaDoGuilherme.Titular.Nome = "Guilherme";
             contaDoGuilherme.Numero = 2;
-            contas[1] = contaDoGuilherme;
+            this.AdicionaConta(contaDoGuilherme);
 
             Conta contaDoMauricio = new ContaInvestimento();
             contaDoMauricio.Titular = new Cliente();
             contaDoMauricio.Titular.Nome = "Mauricio";
             contaDoMauricio.Numero = 3;
-            contas[2] = contaDoMauricio;
-
-            foreach (Conta conta in this.contas)
-            {
-                comboContas.Items.Add(conta);
-                destinoDaTransferencia.Items.Add(conta);
-            }
+            this.AdicionaConta(contaDoMauricio);
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -80,25 +72,15 @@ namespace CaixaEletronico
 
         private void button2_Click(object sender, EventArgs e)
         {
-            string textoValorSaque = valorOperacao.Text;
-
-            double valorSaque = Convert.ToDouble(textoValorSaque);
             Conta contaSelecionada = this.BuscaContaSelecionada();
+            this.RemoveConta(contaSelecionada);
+        }
 
-            try
-            {
-                contaSelecionada.Saca(valorSaque);
-            }
-            catch (SaldoInsuficienteException)
-            {
-                MessageBox.Show("Saldo Insuficiente");
-            }
-            catch (ArgumentException)
-            {
-                MessageBox.Show("Valor de saque é inválido");
-            }
-
-            this.MostraConta(contaSelecionada);
+        private void RemoveConta(Conta conta)
+        {
+            this.contas.Remove(conta);
+            comboContas.Items.Remove(conta);
+            destinoDaTransferencia.Items.Remove(conta);
         }
 
         private void MostraConta(Conta conta)
@@ -179,6 +161,24 @@ namespace CaixaEletronico
         {
             ContaCorrente c = new ContaCorrente();
             MessageBox.Show("A proxima conta corrente será de numero: " + c.ProximaConta());
+        }
+
+        public void AdicionaConta(Conta conta)
+        {
+            this.contas.Add(conta);
+            comboContas.Items.Add(conta);
+            destinoDaTransferencia.Items.Add(conta);
+        }
+
+        private void button7_Click(object sender, EventArgs e)
+        {
+            CadastroDeContas cadastro = new CadastroDeContas(this);
+            cadastro.ShowDialog();
+        }
+
+        public int getQtdContas()
+        {
+            return this.contas.Count;
         }
     }
 }
