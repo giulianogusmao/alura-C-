@@ -1,0 +1,21 @@
+c:\users\caelum\documents\visual studio 2015\Projects\CaixaEletronico\CaixaEletronico\bin\Debug\CaixaEletronico.exe.config
+c:\users\caelum\documents\visual studio 2015\Projects\CaixaEletronico\CaixaEletronico\bin\Debug\CaixaEletronico.exe
+c:\users\caelum\documents\visual studio 2015\Projects\CaixaEletronico\CaixaEletronico\bin\Debug\CaixaEletronico.pdb
+c:\users\caelum\documents\visual studio 2015\Projects\CaixaEletronico\CaixaEletronico\obj\Debug\CaixaEletronico.Form1.resources
+c:\users\caelum\documents\visual studio 2015\Projects\CaixaEletronico\CaixaEletronico\obj\Debug\CaixaEletronico.Properties.Resources.resources
+c:\users\caelum\documents\visual studio 2015\Projects\CaixaEletronico\CaixaEletronico\obj\Debug\CaixaEletronico.csproj.GenerateResource.Cache
+c:\users\caelum\documents\visual studio 2015\Projects\CaixaEletronico\CaixaEletronico\obj\Debug\CaixaEletronico.exe
+c:\users\caelum\documents\visual studio 2015\Projects\CaixaEletronico\CaixaEletronico\obj\Debug\CaixaEletronico.pdb
+C:\Users\caelum\Documents\Visual Studio 2015\Projects\CaixaEletronico\CaixaEletronico\obj\Debug\CaixaEletronico.csprojResolveAssemblyReference.cache
+C:\Users\giuliano.gusmao\Downloads\Cursos\Alura\C#\src\Modulo II - lidando com execeções, manipulando arquivos e listas\CaixaEletronico\CaixaEletronico\bin\Debug\CaixaEletronico.exe.config
+C:\Users\giuliano.gusmao\Downloads\Cursos\Alura\C#\src\Modulo II - lidando com execeções, manipulando arquivos e listas\CaixaEletronico\CaixaEletronico\obj\Debug\CaixaEletronico.exe
+C:\Users\giuliano.gusmao\Downloads\Cursos\Alura\C#\src\Modulo II - lidando com execeções, manipulando arquivos e listas\CaixaEletronico\CaixaEletronico\obj\Debug\CaixaEletronico.pdb
+C:\Users\giuliano.gusmao\Downloads\Cursos\Alura\C#\src\Modulo III - lidando com execeções, manipulando arquivos e listas\CaixaEletronico\CaixaEletronico\bin\Debug\CaixaEletronico.exe.config
+C:\Users\giuliano.gusmao\Downloads\Cursos\Alura\C#\src\Modulo III - lidando com execeções, manipulando arquivos e listas\CaixaEletronico\CaixaEletronico\obj\Debug\CaixaEletronico.exe
+C:\Users\giuliano.gusmao\Downloads\Cursos\Alura\C#\src\Modulo III - lidando com execeções, manipulando arquivos e listas\CaixaEletronico\CaixaEletronico\obj\Debug\CaixaEletronico.pdb
+C:\Users\giuliano.gusmao\Downloads\Cursos\Alura\C#\src\Modulo III - lidando com execeções, manipulando arquivos e listas\CaixaEletronico\CaixaEletronico\bin\Debug\CaixaEletronico.exe
+C:\Users\giuliano.gusmao\Downloads\Cursos\Alura\C#\src\Modulo III - lidando com execeções, manipulando arquivos e listas\CaixaEletronico\CaixaEletronico\bin\Debug\CaixaEletronico.pdb
+C:\Users\giuliano.gusmao\Downloads\Cursos\Alura\C#\src\Modulo III - lidando com execeções, manipulando arquivos e listas\CaixaEletronico\CaixaEletronico\obj\Debug\CaixaEletronico.csprojResolveAssemblyReference.cache
+C:\Users\giuliano.gusmao\Downloads\Cursos\Alura\C#\src\Modulo III - lidando com execeções, manipulando arquivos e listas\CaixaEletronico\CaixaEletronico\obj\Debug\CaixaEletronico.Form1.resources
+C:\Users\giuliano.gusmao\Downloads\Cursos\Alura\C#\src\Modulo III - lidando com execeções, manipulando arquivos e listas\CaixaEletronico\CaixaEletronico\obj\Debug\CaixaEletronico.Properties.Resources.resources
+C:\Users\giuliano.gusmao\Downloads\Cursos\Alura\C#\src\Modulo III - lidando com execeções, manipulando arquivos e listas\CaixaEletronico\CaixaEletronico\obj\Debug\CaixaEletronico.csproj.GenerateResource.Cache
