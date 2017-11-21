@@ -16,6 +16,7 @@ namespace CaixaEletronico
     public partial class Form1 : Form
     {
         private List<Conta> contas = new List<Conta>();
+        private static int qtdDeContas = 0;
 
         public Form1()
         {
@@ -27,19 +28,16 @@ namespace CaixaEletronico
             Conta contaDoVictor = new ContaCorrente();
             contaDoVictor.Titular = new Cliente();
             contaDoVictor.Titular.Nome = "Victor";
-            contaDoVictor.Numero = 1;
             this.AdicionaConta(contaDoVictor);
 
             Conta contaDoGuilherme = new ContaPoupanca();
             contaDoGuilherme.Titular = new Cliente();
             contaDoGuilherme.Titular.Nome = "Guilherme";
-            contaDoGuilherme.Numero = 2;
             this.AdicionaConta(contaDoGuilherme);
 
             Conta contaDoMauricio = new ContaInvestimento();
             contaDoMauricio.Titular = new Cliente();
             contaDoMauricio.Titular.Nome = "Mauricio";
-            contaDoMauricio.Numero = 3;
             this.AdicionaConta(contaDoMauricio);
         }
 
@@ -165,6 +163,7 @@ namespace CaixaEletronico
 
         public void AdicionaConta(Conta conta)
         {
+            conta.Numero = 1 + qtdDeContas++;
             this.contas.Add(conta);
             comboContas.Items.Add(conta);
             destinoDaTransferencia.Items.Add(conta);

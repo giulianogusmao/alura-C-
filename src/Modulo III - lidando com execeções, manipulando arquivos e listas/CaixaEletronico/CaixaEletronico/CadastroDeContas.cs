@@ -26,31 +26,29 @@ namespace CaixaEletronico
             Cliente titular = new Cliente();
             titular.Nome = titularConta.Text;
 
-            int numero = this.aplicacaoPrincipal.getQtdContas() + 1;
-
             Conta conta;
 
             switch(Convert.ToString(tipoConta.SelectedItem))
             {
                 case "Poupança":
                     conta = new ContaPoupanca() {
-                        Numero = numero, Titular = titular
+                        Titular = titular
                     };
                     break;
                 case "Investimento":
                     conta = new ContaInvestimento() {
-                        Numero = numero, Titular = titular
+                        Titular = titular
                     };
                     break;
                 default:
                     conta = new ContaCorrente() {
-                        Numero = numero, Titular = titular
+                        Titular = titular
                     };
                     break;
             }
 
             this.aplicacaoPrincipal.AdicionaConta(conta);
-            MessageBox.Show("Conta cadastrada com sucesso");
+            MessageBox.Show("Conta cadastrada com sucesso!");
             this.Close();
         }
 
